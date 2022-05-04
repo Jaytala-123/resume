@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.jaytala.resumemaker">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ResumeMaker">
+        <activity
+            android:name=".home"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+        <activity
+            android:name=".view_9"
+            android:exported="false" />
+        <activity
+            android:name=".format8"
+            android:exported="false" />
+        <activity
+            android:name=".reference7"
+            android:exported="false" />
+        <activity
+            android:name=".objective6"
+            android:exported="false" />
+        <activity
+            android:name=".workprofile5"
+            android:exported="false" />
+        <activity
+            android:name=".skill4"
+            android:exported="false" />
+        <activity
+            android:name=".experience3"
+            android:exported="false" />
+        <activity
+            android:name=".education2"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+
+        </activity>
+    </application>
+
+</manifest>
