@@ -9,7 +9,7 @@ import android.widget.Button;
 import android.widget.EditText;
 
 public class skill4 extends AppCompatActivity {
-
+    
     EditText skill1, skill2, skill3, skill4;
     Button next;
 
